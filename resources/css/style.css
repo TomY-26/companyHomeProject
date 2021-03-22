@@ -1,0 +1,126 @@
+body {
+    background-color: #f3f4ed;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------------------Nav Section----------------------------------------------------------------------------*/
+
+nav {
+    background-color: #536162;
+    color: #f3f4ed;
+    display: flex;
+    justify-content: space-between;
+    height: 7.5rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    border-bottom: solid 5px #c06014;
+}
+
+nav h1 {
+    font-size: 3.125rem;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    margin-right: 1.5rem;
+    font-size: 1.25rem;
+}
+
+nav li {
+    display: inline;
+    padding: 0.75rem;
+}
+
+nav a {
+    color: #f3f4ed;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #f3f4ed;
+}
+
+nav a:hover {
+    color: #c06014;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav figure {
+    margin: 0 0 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-right: 1rem;
+}
+
+/*---------------------------------------------------------Mission Section ---------------------------------------------------------------------------------------*/
+
+#mission {
+    margin-top: 8rem;
+    background-image: url("../images/missionImage.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: bottom;
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+}
+
+.missionBanner {
+    background-color: #536162;
+    opacity: .9;
+    width: 100%;
+    color: #f3f4ed;
+}
+
+.missionBanner h2 {
+    font-size: 2.5rem;
+}
+
+.missionBanner h3 {
+    font-size: 1.85rem;
+}
+
+/*---------------------------------------------------------Gallery Section ---------------------------------------------------------------------------------------*/
+
+#gallery h2 {
+    font-size: 2.5rem;
+    color: #424642;
+}
+
+#gallery h3 {
+    font-size: 1.85rem;
+    color: #424642;
+}
+
+
+.imageGallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    font-size: 1.5rem;
+    color: #424642;
+}
+
+.galleryImage {
+    height: 18.75rem;
+    width: 31.25rem;
+    border: solid 3px #c06014;
+}
