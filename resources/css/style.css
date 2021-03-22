@@ -77,7 +77,8 @@ nav figure {
     background-position: bottom;
     background-size: cover;
     height: 50rem;
-    width: 100%;
+    width: auto;
+    flex-shrink: 1;
 }
 
 .missionBanner {
@@ -124,3 +125,86 @@ nav figure {
     width: 31.25rem;
     border: solid 3px #c06014;
 }
+
+/*---------------------------------------------------------Team Section ---------------------------------------------------------------------------------------*/
+
+#team {
+    background-image: url("../images/teamImage.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.teamTitle {
+    font-size: 2.5rem;
+    color: #f3f4ed;
+    background-color: #536162;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.teamWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 3rem;
+   
+}
+
+.teamCard {
+    background-color: #c06014;
+    color: #424642;
+    
+}
+
+.teamCard h3 {
+    font-size: 1.85rem;
+}
+
+.teamCard p {
+    font-size: 1.25rem;
+}
+
+.teamPhoto {
+    height: 17.75rem;
+    width: 21rem;
+    border: solid 2px #424642;
+}
+
+/*--------------------------------------------------------------Contact Section ---------------------------------------------------------------------------------------*/
+
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #424642;
+}
+
+#contact h4 {
+    font-size: 1.35rem;
+    color: #424642;
+}
+
+/*---------------------------------------------------------Footer Section ---------------------------------------------------------------------------------------*/
+
+footer {
+    background-color: #536162;
+    width: 100%;
+    border-top: solid 5px #c06014;
+    margin: 0;
+}
+
+footer p {
+    text-align: right;
+    margin: 0 1rem 0 0;
+    color: #c06014;
+    padding: 0.8rem 0 0.8rem;
+}
+
