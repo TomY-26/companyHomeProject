@@ -5,6 +5,10 @@ body {
     text-align: center;
 }
 
+.dropDown {
+    display: none;
+}
+
 /*---------------------------------------------------------------------------Nav Section----------------------------------------------------------------------------*/
 
 nav {
@@ -208,3 +212,112 @@ footer p {
     padding: 0.8rem 0 0.8rem;
 }
 
+
+
+
+@media only screen and (max-width: 1260px) {
+
+    .teamPhoto {
+        height: 10rem;
+        width: 13rem;
+        border: solid 2px #424642;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    nav {
+        height: 5rem;
+        border-bottom: solid 3px #c06014;
+    }
+    
+    nav h1 {
+        font-size: 1.85rem;
+    }
+
+    nav ul {
+        margin: 0 1rem 0 0;
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline;
+        padding: 0.75rem;
+    }
+    
+    .logoImage {
+        width: 5rem;
+        height: 5rem;
+        margin-right: 1rem;
+
+}
+}
+
+
+@media only screen and (max-width: 875px) {
+
+
+/*-------------------------------------------------------- Gallery Section ------------------------------------------------------------------------------------*/
+    
+    .missionBanner h2 {
+        font-size: 1.85rem;
+    }
+
+    .missionBanner h3 {
+        font-size: 1.25rem;
+    }
+    
+/*-------------------------------------------------------- Gallery Section ------------------------------------------------------------------------------------*/
+    
+    #gallery h2 {
+        font-size: 1.85rem;
+        color: #424642;
+    }
+    
+    #gallery h3 {
+        font-size: 1.25rem;
+        color: #424642;
+    }
+
+    .imageGallery {
+        font-size: 1.25rem;
+    }
+/*-------------------------------------------------------- Team Section ------------------------------------------------------------------------------------*/
+
+    .teamTitle {
+        font-size: 1.5rem;
+        color: #f3f4ed;
+        background-color: #536162;
+        width: 100%;
+        opacity: 0.9;
+    }
+    
+    .teamWrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 1rem;
+        flex-direction: column;
+    }
+
+    .teamCard {
+        background-color: #c06014;
+        color: #424642;
+        margin: .5rem 0 .5rem 0;
+    }
+    .teamCard h3 {
+        font-size: 1.25rem;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    .teamCard p {
+        font-size: 1rem;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    .teamPhoto {
+        height: 10rem;
+        width: 13rem;
+        border: solid 2px #424642;
+    }
+}
